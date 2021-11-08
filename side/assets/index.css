@@ -12,7 +12,7 @@ body{
     cursor: default;
     position: fixed;
     width: 100%;
-    height: 100px;
+    height: 10%;
     background-color: rgb(51, 51, 51);
     top:0;
     bottom:0;
@@ -29,7 +29,6 @@ form.logo{
     width: 100%;
     justify-content: center;    
     vertical-align: center;
-    
 }
 
 button.logo{
@@ -46,23 +45,29 @@ div.search{
     align-items: center;
     justify-content: right;
     width: 100%;
-    margin-right: 200px;
+    margin-right: 10vw;
 }
 
 div.fake_input input{
     background-color: rgb(77, 77, 77);
-    height: 50px;
-    width: 350px;
     font-size: 20px;
     border: none;
-
+    display:block;
+    width: 100%;
+    height: 5vh;
+    box-sizing: border-box 
 }
 
 div.fake_input img{
-    height: 50px;
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    height: 100%;
 }
 
 div.fake_input button{
+    display: flex;
+    justify-content: right;
     cursor: pointer;
     background: none;
     border: none;   
@@ -70,10 +75,12 @@ div.fake_input button{
 }
 
 div.fake_input{
+    position: relative;
     border: 1px black;
     background-color: rgb(77, 77, 77);
-    height: 50px;
     width: fit-content;
+    align-content: center;
+    height: fit-content;
 }
 
 div.about{
@@ -83,7 +90,7 @@ div.about{
     text-decoration: none;
     justify-content: flex-start;
     width: 100%;
-    margin-left: 200px;
+    margin-left: 10vw;
 }
 
 a:visited{
