@@ -49,13 +49,32 @@ div.search{
     margin-right: 200px;
 }
 
-input.search{
+div.fake_input input{
     background-color: rgb(77, 77, 77);
     height: 50px;
     width: 350px;
     font-size: 20px;
+    border: none;
+
 }
 
+div.fake_input img{
+    height: 50px;
+}
+
+div.fake_input button{
+    cursor: pointer;
+    background: none;
+    border: none;   
+    vertical-align: middle;
+}
+
+div.fake_input{
+    border: 1px black;
+    background-color: rgb(77, 77, 77);
+    height: 50px;
+    width: fit-content;
+}
 
 div.about{
     display: flex;
