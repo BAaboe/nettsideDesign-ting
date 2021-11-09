@@ -154,7 +154,8 @@ a:visited{
     top: 10%;
     width: 100%;
     height: 100%;
-    background-color: rgb(34, 181, 115)
+    background-color: rgb(34, 181, 115);
+    border: solid;
 }
 
 
