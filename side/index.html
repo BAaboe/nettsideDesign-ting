@@ -11,7 +11,13 @@
 <body>
     <div id="header">
         <div class="about">
-            <a class="about" href="about/index.html">Om oss</a>
+            <div class="dropdown">
+                <button class="dropbtn" href="about/index.html">Mer</button>
+                <div class="dropdown-content">
+                    <a href="about/index.html">Om Oss</a>
+                    <a>Test</a>
+                </div>
+            </div>
         </div>
 
         <form action="index.html" class="logo">
@@ -20,8 +26,8 @@
 
         <div class="search">
             <div class="fake_input">
-                <input type="search" placeholder="Søk etter produkt...">
-                <button><img src="./assets/Magnifying_glass_icon.svg"></button>
+                <input type="search" id="input" placeholder="Søk etter produkt...">
+                <button onclick="searchgBtnClick()"><img src="./assets/Magnifying_glass_icon.svg"></button>
             </div>
         </div>
     </div>

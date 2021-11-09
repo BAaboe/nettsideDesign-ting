@@ -18,8 +18,9 @@ body{
     bottom:0;
     left:0;
     right:0;
-    color: white;
+    color: rgb(34, 181, 115);
     font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -55,12 +56,20 @@ div.fake_input input{
     display:block;
     width: 100%;
     height: 5vh;
-    box-sizing: border-box 
+    box-sizing: border-box;
+    color: white;
 }
+
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
 
 div.fake_input img{
     position: absolute;
-    top: 2px;
+    top: 1px;
     right: 5px;
     height: 100%;
 }
@@ -72,6 +81,9 @@ div.fake_input button{
     background: none;
     border: none;   
     vertical-align: middle;
+    height: fit-content;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 div.fake_input{
@@ -80,27 +92,62 @@ div.fake_input{
     background-color: rgb(77, 77, 77);
     width: fit-content;
     align-content: center;
-    height: fit-content;
+    height: 5vh;
 }
 
 div.about{
     display: flex;
     align-items: center;
-    color: white;
     text-decoration: none;
     justify-content: flex-start;
     width: 100%;
     margin-left: 10vw;
 }
 
-a:visited{
-    text-decoration: none;
-    color: white; 
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(51, 51, 51);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
-a{
+.dropbtn{
+    background-color: rgb(51, 51, 51);
+    color: rgb(34, 181, 115);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover{
+    color: rgb(0, 104, 55)
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a{
     text-decoration: none;
-    color: white;
+    color: rgb(34, 181, 115);
+    padding: 8px 16px;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    cursor: pointer;
+    color:rgb(0, 104, 55)
+}
+
+a:visited{
+    text-decoration: none;
 }
 
 
