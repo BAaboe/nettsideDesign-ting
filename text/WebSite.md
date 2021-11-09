@@ -15,11 +15,9 @@ Oransj ish (rgb(247, 147, 30))
 
 ## Font 
 ### Header
-Fox And Cat
+Verdana
 
 
 
 ## Kilder 
 https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg
-
-https://www.graphicpear.com/fox-cat-typeface/
