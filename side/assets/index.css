@@ -125,7 +125,7 @@ div.about{
 }
 
 .dropbtn:hover{
-    color: rgb(0, 104, 55)
+    color: rgb(34, 181, 115);
 }
 
 .dropdown:hover .dropdown-content {
