@@ -134,14 +134,14 @@ div.about{
 
 .dropdown-content a{
     text-decoration: none;
-    color: rgb(34, 181, 115);
+    color: rgb(0, 104, 55);
     padding: 8px 16px;
     display: block;
 }
 
 .dropdown-content a:hover{
     cursor: pointer;
-    color:rgb(0, 104, 55)
+    color:rgb(34, 181, 115);
 }
 
 a:visited{
