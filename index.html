@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/index.css">
+    <script src="index.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    <div id="header">
+        <div class="about">
+            <div class="dropdown">
+                <button class="dropbtn">More</button>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="./products/index.html">Products</a>
+                    <a href="about/index.html">About us</a>
+                </div>
+            </div>
+        </div>
+
+        <form action="index.html" class="logo">
+            <button class="logo" onclick="logo_click()"><img src="./assets/logo_whit_title.svg"/></button>
+        </form>
+
+        <div class="search">
+            <div class="fake_input">
+                <input type="search" id="input" placeholder="Search for products...">
+                <a href="./searchresult/index.html">
+                    <button><img src="./assets/Magnifying_glass_icon.svg"></button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="content">
+            <h1 class="content">The best tea on the market,<br> All in one place</h1>
+            <a href="products/index.html"><button class="content">See Products</button></a>
+        </div>
+    </div>
+</body>
+</html>
