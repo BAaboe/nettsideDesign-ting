@@ -3,3 +3,6 @@ function searchgBtnClick(){
     console.log(input)
     window.location.replace(`https://www.google.com/search?q=tea, ${input}`);
 }
+
+
+
