@@ -1,11 +1,11 @@
 function main(){
 
-    var products = {0:{"name":"English Breakfast","brand":"Twinigs", "price": "£6.39", "bags": "150"},
-                    1:{"name":"Earl Grey", "brand":"Twinigs", "price": "£6.39", "bags": "150"},
-                    2:{"name":"Lady Grey", "brand":"Twinigs", "price": "£5.29", "bags": "100"},
-                    3:{"name":"English Afternoon", "brand":"Twinigs", "price": "£5.29", "bags": "100"},
-                    4:{"name":"Sweet Chai", "brand":"Yogi Tea", "price": "£5,07", "bags": "17"},
-                    5:{"name":"Bee Happy", "brand":"Yogi Tea", "price": "£4,99", "bags": "17"}};
+    var products = {0: {"name":"English Breakfast","brand":"Twinigs", "price": "£6.39", "bags": "150"},
+                    1: {"name":"Earl Grey", "brand":"Twinigs", "price": "£6.39", "bags": "150"},
+                    2: {"name":"Lady Grey", "brand":"Twinigs", "price": "£5.29", "bags": "100"},
+                    3: {"name":"English Afternoon", "brand":"Twinigs", "price": "£5.29", "bags": "100"},
+                    4: {"name":"Sweet Chai", "brand":"Yogi Tea", "price": "£5,07", "bags": "17"},
+                    5: {"name":"Bee Happy", "brand":"Yogi Tea", "price": "£4,99", "bags": "17"}};
 
     console.log(window.location.href);
     if ( window.location.href.indexOf('?name=') > -1){
